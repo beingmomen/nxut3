@@ -13,7 +13,7 @@
       </a>
       <a
         v-if="lesson.downloadUrl"
-        class="font-normal text-md text-gray-500"
+        class="font-normal text-md text-gray-500 test"
         :href="lesson.downloadUrl"
       >
         Download Video
@@ -41,5 +41,4 @@ const lesson = computed(() => {
 });
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
